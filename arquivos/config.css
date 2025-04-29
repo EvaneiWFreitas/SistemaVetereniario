@@ -1,0 +1,13 @@
+/* CONFIGURAÇÃO DE CORES */
+
+:root {
+    --primary: #FC5185;
+    --primary-dark: #F83771;
+    --secundary: #364f6b;
+    --terceira: #FFA33D;
+    --quarto: #110239;
+    --quinto: #FD425F;
+    --light: #f0f0f0;
+    --medium: #cacaca;
+    --dark: #a2a2a2;
+}

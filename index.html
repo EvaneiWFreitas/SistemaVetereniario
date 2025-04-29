@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinária | LoveDog </title>
+    <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css">
+    <!-- ICONES DO BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JQUERY -->
+    <script src="public/bootstrap/js/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <!-- MENU DO SISTEMA-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #263B84;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logonovoVet.png" alt="petshop_amor_aos_animais"
+                     title="petshop_amor_aos_animais" width="35" height="35" class="d-inline-block align-text-top">
+               Veterinária LoveDog
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  btn btn-outline-danger" aria-current="page" href="#"><i class="bi bi-house-add-fill"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-danger" href="#"><i class="bi bi-hammer"></i> Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-danger" href="#"><i class="bi bi-camera2"></i> Galeria Pet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-danger" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-building-fill-add"></i> Clinica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-danger" href="#"><i class="bi bi-whatsapp"></i> Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-danger" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- /MENU DO SISTEMA-->
+
+    <!-- CAROUSEL -->
+    <section>
+        <!-- CAROUSEL -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slides/slideRedimensionado1.jpg" class="d-block w-100" width="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="#" class="btn btn-primary">Reservas</a>
+                        <a href="#" class="btn btn-danger">Produtos</a><br><br>
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slides/slideRedimensionado2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="#" class="btn btn-primary">Reservas</a>
+                        <a href="#" class="btn btn-danger">Produtos</a><br><br>
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/slides/slideRedimensionado3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="#" class="btn btn-primary">Reservas</a>
+                        <a href="#" class="btn btn-danger">Produtos</a><br><br>
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- /CAROUSEL -->
+    </section>
+    <!-- /CAROUSEL -->
+
+    <style>
+        .info{
+            background-image: url("images/fundotecnologia2.png");
+            background-size: 100vw 100vh;
+            background-repeat: no-repeat;
+        }
+        @media (max-width: 768px) {
+            .info{
+                background-image: url("images/fundo.png");
+
+            }
+        }
+    </style>
+    <!-- OUTRAS NOTICIAS - A cerca de nossa clínica de mascotes -->
+    <section class="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <center>
+                        <img class="img-fluid" src="images/img1.png " alt="" title="">
+                    </center>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <br><br><br>
+                    <h2 style="text-align: center">Sobre nossa <span style="color: #112a7a">clínica de mascotes</span></h2>
+                    <br><br>
+                    <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda aut autem
+                        blanditiis commodi dolorem ducimus, excepturi iste itaque labore, nihil officiis qui
+                        quis, sapiente sunt totam ut voluptatibus. Maxime consectetur adipisicing elit. Animi
+                        assumenda aut autem blanditiis commodi dolorem ducimus, excepturi iste itaque labore,
+                        nihil officiis.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-lg">Mais sobre nós</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /OUTRAS NOTICIAS - A cerca de nossa clínica de mascotes-->
+
+
+
+
+    <script src="public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="public/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

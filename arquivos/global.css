@@ -1,0 +1,76 @@
+h1,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+a {
+    color: var(--quarto);
+}
+
+a:hover {
+    color: var(--quinto);
+}
+
+.texto {
+    text-transform: uppercase;
+    padding-top: 39px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.block {
+    margin-bottom: 17px;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: var(--medium);
+    font-weight: 400;
+}
+
+.buttom {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.buttom-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.buttom-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.buttom-primary-ouline {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.buttom-primary-ouline:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+
+/************************************************************************
+************************* SOBRE ****************************************/
+
+.btsobre {
+    background-color: var(--quarto);
+    text-transform: lowercase;
+}
